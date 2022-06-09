@@ -12,8 +12,6 @@ namespace Payment.Tests.HomeTests
         public async Task ManualLogin()
         {
             await Page.GotoAsync("https://www.nexon.com/Home/Game");
-            
-            
         }
     }
 }

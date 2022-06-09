@@ -20,8 +20,6 @@ namespace Login.Tests
             await Page.FillAsync("#txtPWD", "password");
             await Page.ClickAsync(".btLogin");
             await Page.ScreenshotAsync(new PageScreenshotOptions {Path = "screenshot.png"});
-            
-            // Verification
         }
     }
 }
